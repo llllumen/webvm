@@ -68,7 +68,7 @@ async function doRegister() {
 			try {
 				window.location.reload();
 			} catch (err) {
-				console.log("Service Worker failed reloading the page. ERROR:" + err);
+				console.log("Service Worker failed reloading the page.  ERROR:" + err);
 			};
 		}
 	}
