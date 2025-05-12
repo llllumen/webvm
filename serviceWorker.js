@@ -42,7 +42,7 @@ function serviceWorkerInit() {
 		try {
 			e.respondWith(handleFetch(e.request));
 		} catch (err) {
-			console.log("Serviceworker NetworkError:" + err);
+			console.log("Serviceworker NetworkError: " + err);
 		}
 	});
 }
